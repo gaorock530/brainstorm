@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T17:32:58.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uvZLq-zPA1f0GeJw54gW" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T00:36:06.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vNEADVwh_VBFqXmoNrDH" version="21.3.7" type="github">
   <diagram name="第 1 页" id="cL2ari5P5rK7yNvcYL_R">
-    <mxGraphModel dx="2901" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
         </mxCell>
         <mxCell id="pVpW-Cy3fcOdUAyhwVUu-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="2000" as="sourcePoint" />
+            <mxPoint x="760" y="2200" as="sourcePoint" />
             <mxPoint x="759.5" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -136,48 +136,48 @@
         <mxCell id="pVpW-Cy3fcOdUAyhwVUu-13" value="&lt;br&gt;&#39;login&#39; event:&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;access_token: &#39;sdfksdjfkjasd123123123&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;token_type: &#39;test&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;refresh_token: &#39;asdaskj12312h3asd&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;expired_in: 3600,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;parameter: &#39;value&#39;&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="125" y="1320" width="270" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-1" value="login" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-1" value="login" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-200" y="1120" as="sourcePoint" />
             <mxPoint x="120" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-2" value="access token" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-2" value="access token" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="1480" as="sourcePoint" />
             <mxPoint x="760" y="1480" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-3" value="GET /resource/v1 HTTP/1.1&lt;br&gt;Host: api.website.com&lt;br&gt;Authorization: Bearer Lklaksl123123kkasjdl" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-3" value="GET /resource/v1 HTTP/1.1&lt;br&gt;Host: api.website.com&lt;br&gt;Authorization: Bearer Lklaksl123123kkasjdl" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="125" y="1490" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-4" value="resource" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-4" value="resource" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="760" y="1600" as="sourcePoint" />
             <mxPoint x="120" y="1600" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-5" value="HTTP/1.1 200 OK&lt;br&gt;Content-Type: application/json;charset=UTF-8&lt;br&gt;Cache-Control: no-store&lt;br&gt;Pragma: no-cache&lt;br&gt;&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&quot;status&quot;: 200,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&quot;data&quot;: &#39;example&quot;&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-5" value="HTTP/1.1 200 OK&lt;br&gt;Content-Type: application/json;charset=UTF-8&lt;br&gt;Cache-Control: no-store&lt;br&gt;Pragma: no-cache&lt;br&gt;&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&quot;status&quot;: 200,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&quot;data&quot;: &#39;example&quot;&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="125" y="1610" width="270" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-6" value="refresh token" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-6" value="refresh token" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="1760" as="sourcePoint" />
             <mxPoint x="440" y="1760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-7" value="&#39;refresh_token&#39; event:&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;grant_type: &#39;refresh_token&#39;,&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;refresh_token: &#39;asdasd123123asd&#39;,&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;scope: &#39;read 123&#39;&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-7" value="&#39;refresh_token&#39; event:&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;grant_type: &#39;refresh_token&#39;,&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;refresh_token: &#39;asdasd123123asd&#39;,&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;scope: &#39;read 123&#39;&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="125" y="1770" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-8" value="access token" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-8" value="access token" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="1880" as="sourcePoint" />
             <mxPoint x="120" y="1880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OAemqj34gZb-s9COZGXv-9" value="&lt;br&gt;&#39;refresh_token&#39; event:&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;access_token: &#39;sdfksdjfkjasd123123123&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;token_type: &#39;test&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;expired_in: 3600,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;parameter: &#39;value&#39;&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="OAemqj34gZb-s9COZGXv-9" value="&lt;br&gt;&#39;refresh_token&#39; event:&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;access_token: &#39;sdfksdjfkjasd123123123&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;token_type: &#39;test&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;expired_in: 3600,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;parameter: &#39;value&#39;&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="125" y="1870" width="270" height="130" as="geometry" />
         </mxCell>
       </root>
